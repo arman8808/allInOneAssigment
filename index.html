@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>All Assignments</h1>
+    </header>
+
+    <main>
+      <div class="tabs">
+        <button class="tab-button active" data-tab="live-projects">
+          Live Projects
+        </button>
+        <button class="tab-button" data-tab="code-links">Code Links</button>
+      </div>
+
+      <div class="tab-content cards" id="live-projects">
+        <div class="card">
+          <h3>Assignment (email) Client</h3>
+          <a href="https://assigemt01.vercel.app/" target="_blank">View Project</a>
+        </div>
+        <div class="card">
+          <h3>Assignment (dashboard) Client</h3>
+          <a href="https://assigemt02client.vercel.app/" target="_blank">View Project</a>
+        </div>
+      </div>
+
+      <div class="tab-content cards" id="code-links">
+        <div class="card">
+          <h3>Assignment (Email) Code</h3>
+          <a href="https://github.com/arman8808/assigemt01.git" target="_blank"
+            >View Code</a
+          >
+        </div>
+        <div class="card">
+          <h3>Assignment (dashboard) Client</h3>
+          <a href="https://github.com/arman8808/assigemt02client.git" target="_blank"
+            >View Code</a
+          >
+        </div>
+        <div class="card">
+          <h3>Assignment (dashboard) Server</h3>
+          <a href="https://github.com/arman8808/assigmet02server.git" target="_blank">View Code</a>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
